@@ -1,0 +1,49 @@
+body{
+    font-size: 18px;
+    font-family: Helvetica, Sans-serif, Arial;
+    display: block;
+    background-color: #1a1a12;
+    color: #dddddd;
+    width: 100%;
+    height:100vh;
+}
+
+header{
+    text-align: center;
+    font-size:1.8em;
+    margin: 10px;
+}
+
+#navbar{
+    display: block;
+}
+
+#name{
+    position:absolute;
+    margin:10px;
+    font-size:2.6em;
+}
+
+#navbar li{
+    list-style: none;
+    position:relative;
+    width: 100%;
+}
+
+#navbar a{
+    display:block;
+    cursor:pointer;
+    padding: 10px 30px;
+    color:#dddddd;
+    text-decoration: none;
+    transition:color .75s;
+}
+
+#navbar a:hover{
+    color:gold;
+    font-size:1.2em;
+}
+
+div{
+    padding:20px;
+}
